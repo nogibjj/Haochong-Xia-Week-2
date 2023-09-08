@@ -5,9 +5,9 @@ This is a repo template for course 706_Data_Engineering Week 2 Mini Project. Fir
 To do an extension base on week 1 by making a python template and generate descriptive statistics on datasets using Pandas. 
 
 # Preparation 
-1.open codespaces
-2.open Colab
-3.wait for container to be built with requiremnts.txt installed
+1. open codespaces 
+2. open Colab
+3. wait for container to be built with requiremnts.txt installed
 
 # Check format and test errors
 1.Format code make format
