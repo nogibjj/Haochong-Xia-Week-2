@@ -10,8 +10,5 @@ format:
 
 lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
-
-container-lint:
-	docker run --rm -i hadolint/hadolint < Dockerfile
 		
 all: install lint format test 
