@@ -2,6 +2,7 @@ from main import (
     Describe,
     get_median,
     PlotShapeLeng,
+    PlotShapeArea,
     Summary,
 )
 import pandas as pd
