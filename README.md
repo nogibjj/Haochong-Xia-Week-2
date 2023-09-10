@@ -1,4 +1,4 @@
-# Haochong-week2-mini-repo
+# Haochong-week2-mini-repo [![CI](https://github.com/nogibjj/Haochong-Xia-Week-2/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/Haochong-Xia-Week-2/actions/workflows/ci.yml)
 This is a repo template for course 706_Data_Engineering Week 2 Mini Project. First of all, I search on gooogle to find a csv. Secondly, I define functions called "Describe" and "get_median" to return the descriptive statistics of the dataset. After that, I use the Colab to print the data and plot histagrams and then use assert in the test.py to test my function. Finally, I use Action to run Makefile and got a 100% pass. 
 
 # Purpose
