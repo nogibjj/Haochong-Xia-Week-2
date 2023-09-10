@@ -18,6 +18,16 @@ def PlotShapeLeng(csv):
     plt.ylabel("Count")
     plt.show() 
 
+def PlotShapeArea(csv):
+    pd.set_option("display.max_columns", None)
+    general_df = pd.read_csv(example_csv)
+    plt.figure(figsize=(10, 6))
+    plt.hist(general_df["Shape_Area"], bins=20, edgecolor="black")
+    plt.title("Shape_Area Distribution")
+    plt.xlabel("Shape_Area")
+    plt.ylabel("Count")
+    plt.show() 
+
 def Summary(csv):
     general_df = pd.read_csv(csv)
     profile = ProfileReport(general_df, title="Profiling Report")
