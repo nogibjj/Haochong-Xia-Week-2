@@ -5,7 +5,7 @@ from ydata_profiling import ProfileReport
 def Describe(df): 
     return df.describe() 
 
-def get_median(df)
+def get_median(df):
     return df.median()
 
 def PlotShapeLeng(csv):
