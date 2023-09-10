@@ -14,7 +14,7 @@ def test_descirbe():
     assert result.loc['count', 'Shape_Leng'] == 1189.0
     assert result.loc['mean', 'Shape_Area'] == 228153453.41946846
     assert result.loc['mean', 'Shape_Leng'] == 60622.47019343987
-    assert result.loc['std', 'Shape_Area'] == 7.611513e+06
+    assert result.loc['std', 'Shape_Area'] == 7611513.495851165
     assert result.loc['std', 'Shape_Area'] == 1094.006226
 
 def test_median():
@@ -22,8 +22,11 @@ def test_median():
     assert data['Shape_Leng'].median() == 60896.5746
     assert data['Shape_Area'].median() == 230060526.252
 
-def test_viz_iris_and_general():
+def test_plot1():
     PlotShapeLeng(example_csv)
+
+def test_plot2():
+    PlotShapeArea(example_csv)
 
 
 def test_generate_summary_report():
