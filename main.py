@@ -3,10 +3,12 @@ import matplotlib.pyplot as plt
 from ydata_profiling import ProfileReport
 
 def Describe(df): 
-    return df.describe()   
+    return df.describe() 
+
+def get_median(df)
+    return df.median()
 
 def PlotShapeLeng(csv):
-    import matplotlib.pyplot as plt
     pd.set_option("display.max_columns", None)
     general_df = pd.read_csv(csv)
     plt.figure(figsize=(10, 6))
