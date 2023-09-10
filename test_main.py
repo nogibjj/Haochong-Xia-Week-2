@@ -16,7 +16,7 @@ def test_descirbe():
     assert result.loc['mean', 'Shape_Area'] == 228153453.41946846
     assert result.loc['mean', 'Shape_Leng'] == 60622.47019343987
     assert result.loc['std', 'Shape_Area'] == 7611513.495851165
-    assert result.loc['std', 'Shape_Leng'] == 1094.006226
+    assert result.loc['std', 'Shape_Leng'] == 1094.0062261219582
 
 def test_median():
     data = pd.read_csv(example_csv)
