@@ -5,7 +5,7 @@ from ydata_profiling import ProfileReport
 def Describe(df): 
     return df.describe()   
 
-def generate_vis_general_congress(csv):
+def PlotShapeLeng(csv):
     import matplotlib.pyplot as plt
     pd.set_option("display.max_columns", None)
     general_df = pd.read_csv(csv)
