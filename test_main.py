@@ -1,9 +1,9 @@
 from main import (
-    polars_describe,
+    Describe,
     get_median,
     PlotShapeLeng,
     PlotShapeArea,
-    polars_summary,
+    Summary,
 )
 import pandas as pd
 
